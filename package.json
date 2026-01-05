@@ -1,13 +1,10 @@
 {
   "name": "review-analyzer",
   "version": "1.0.0",
-  "description": "A simple review analyzer application",
-  "main": "server.js",
+  "private": true,
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2"
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "start": "npm --prefix web run start"
   }
 }
